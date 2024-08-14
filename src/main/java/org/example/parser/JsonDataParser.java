@@ -27,7 +27,7 @@ public class JsonDataParser implements DataParser{
             userArray.forEach(page -> result.put(page.url, page.content));
             return result;
         } catch (IOException e){
-            System.out.println(e.getMessage());
+            System.out.println("details: "+e.getMessage());
             return null;
         }
     }
