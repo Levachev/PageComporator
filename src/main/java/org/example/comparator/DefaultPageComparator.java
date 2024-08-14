@@ -1,6 +1,6 @@
 package org.example.comparator;
 
-import org.example.ComparisonResult;
+import org.example.util.ComparisonResult;
 
 import java.util.ArrayList;
 import java.util.List;
